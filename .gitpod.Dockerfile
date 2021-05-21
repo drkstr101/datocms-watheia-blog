@@ -9,7 +9,7 @@ FROM gitpod/workspace-full
 ENV PATH=$PATH:$HOME/bin
 RUN sudo apt update && sudo apt upgrade -y && \
     npm install --global yarn pnpm npm prettier eslint jest @teambit/bvm && \
-    echo 'export PATH=$PATH:$HOME/bin' >> ~/.bashrc
+    echo 'export PATH=$PATH:$HOME/bin' >> ~/.bashrc && \
     export PATH=$PATH:$HOME/bin && \
     bvm install && \
     bit config set analytics_reporting true && \
