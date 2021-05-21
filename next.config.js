@@ -5,7 +5,7 @@ module.exports = {
     webpack5: true,
   },
   env: {
-    NEXT_EXAMPLE_CMS_DATOCMS_API_TOKEN:
-      process.env.NEXT_EXAMPLE_CMS_DATOCMS_API_TOKEN,
+    WATHEIA_BLOG_DATOCMS_API_TOKEN:
+      process.env.WATHEIA_BLOG_DATOCMS_API_TOKEN,
   },
 }
