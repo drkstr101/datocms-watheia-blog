@@ -31,7 +31,7 @@ export default function Alert({ preview }) {
               >
                 Click here
               </a>{' '}
-              to enter preview mode!
+              to enter real-time mode!
             </>
           )}
         </div>
