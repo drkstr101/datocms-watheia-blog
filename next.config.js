@@ -1,6 +1,7 @@
 require('dotenv').config()
 
 module.exports = {
+  basePath: "/blog",
   future: {
     webpack5: true,
   },
