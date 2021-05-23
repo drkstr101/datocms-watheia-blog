@@ -13,10 +13,10 @@ const theme = createMuiTheme({
   palette: {
     type: "light",
     primary: {
-      main: purple[500],
+      main: "#092947",
     },
     secondary: {
-      main: green[500],
+      main: "#215C94",
     },
   },
   typography: {
