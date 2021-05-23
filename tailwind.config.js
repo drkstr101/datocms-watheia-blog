@@ -1,3 +1,5 @@
+/** @format */
+
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
@@ -33,16 +35,16 @@ module.exports = {
         lg: {
           css: {
             img: {
-              marginTop: '0',
-              marginBottom: '0',
+              marginTop: "0",
+              marginBottom: "0",
             },
           },
         },
-      }
+      },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/typography"), require('autoprefixer')],
-};
+  plugins: [require("@tailwindcss/typography"), require("autoprefixer")],
+}

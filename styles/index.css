@@ -1,4 +1,9 @@
-/* purgecss start ignore */
+/**
+ * /* purgecss start ignore
+ *
+ * @format
+ */
+
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */
